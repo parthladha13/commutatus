@@ -1,0 +1,140 @@
+
+ 
+body {
+  font: 100% sans-serif;
+  margin: 0em;
+  background-color: #fff;
+  color: #666;
+}
+
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+
+p {
+  font-size: 1em;
+  line-height: 1.8;
+  margin-top: 0em;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+  border-bottom: none;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+
+
+header {
+  background-color: #999;
+  background-image: url(image/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 4em;
+  text-align: center;
+  height: 500px;
+ 
+}
+
+header h1 {
+  color: blanchedalmond;
+  font-size: 2em;
+  margin: 0;
+  letter-spacing: 1px;
+  opacity: 1;
+  text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
+  position: relative;
+  top: 370px;
+  font-weight: 700;
+}
+
+header p {
+  color: black;
+  font-size: 1.1em;
+  padding-bottom: 1.3em;
+  padding-top: .5em;
+  opacity: 1;
+  position: relative;
+  top: 360px;
+}
+
+.center{
+  text-align: center;
+}
+
+.hobby-center{
+  color: black;
+  font-weight:800;
+  text-transform: capitalize;
+}
+.hobby-pic{
+  color:#466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 60px;
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+  text-align:center;
+}
+
+.card{
+  border: 2px solid #9DD1F1;
+  display:inline-block;
+  height: 300px;
+  margin-top: 4px;
+  padding: 30px auto;
+  text-align: center;
+  width: 25%;
+  margin-right: 85px;
+  margin-left: 28px;
+  background-color:lightskyblue;
+}
+.card img{
+  height:300px;
+  width:100%;
+}
+.hobbies{
+  background-color: lightgrey;
+}
+
+#social_icon_footer {
+  padding: 40px 0;
+  background-color: #dedede;
+  text-align : center;
+}
+
+#social_icon_footer a {
+  color: #333;
+}
+
+
+#social_icon_footer #social-fb:hover {
+  color: #3B5998;
+}
+
+#social_icon_footer #social-tw:hover {
+  color: #4099FF;
+}
+
+#social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+
+#social_icon_footer #social-em:hover {
+  color: #f39c12;
+}
+#social_icon_footer #social-resume:hover{
+  color: #666;
+}
